@@ -1,0 +1,44 @@
+.conatiner {
+    width: 84%;
+    display: block;
+    padding-left: 30px;
+    align-content: end;
+    justify-content: end;
+    height: 35em;
+    align-self: center;
+    justify-self: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: url('../Image/img1.png');
+    background-size: cover;
+    /* Ensure the image fills the container */
+    background-position: center;
+    /* Center the image */
+    background-color: #f0f0f0;
+    /* Fallback background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Add subtle shadow */
+}
+
+.btn-small1 {
+    margin-left: 10px;
+    /* background-image: linear-gradient(45deg, #ff6f00, #ff3f34);  */
+    background-color: transparent;
+    border-width: 2;
+    border-color: #f0f0f0;
+    color: #f0f0f0;
+    padding: 8px 20px;
+    font-size: 18px;
+    margin-top: 40px;
+    border-radius: 20px;
+    line-height: 1.2;
+    transition: background 0.3s ease;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+/* Hover effect */
+.btn-small1:hover {
+    background-color: #F7C59C;
+    cursor: pointer;
+}
