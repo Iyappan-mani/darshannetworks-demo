@@ -34,11 +34,11 @@ const Footer = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6 }}
                         >
-                            <p className="h6 text-light fw-bold text-capitalize about-us-title">
+                            <p className="h6 text-black fw-bold text-capitalize about-us-title">
                                 About Us
                             </p>
 
-                            <p className="text-light about-us-description">
+                            <p className="text-black about-us-description">
                                 With more than 15 years in business, we’re one of the most experienced web design and marketing agencies based in Penang, Malaysia.
                             </p>
 
@@ -52,7 +52,7 @@ const Footer = () => {
 
                             <div className="who-we-are mt-4 py-5">
                                 <p className="h5 text-uppercase fw-bold text-warning">Who We Are:</p>
-                                <p className="fs-6 text-light">
+                                <p className="fs-6 text-black">
                                     We pride ourselves on delivering solutions that are clean, scalable, and designed with our clients' goals in mind. Whether it's a small business looking for a basic website or a large enterprise needing a dynamic platform, we tailor our services to match.
                                 </p>
                             </div>
@@ -66,20 +66,20 @@ const Footer = () => {
                             transition={{ duration: 0.6 }}
                         >
                             <div>
-                                <p className="h6 text-light fw-bold text-capitalize about-us-title">
+                                <p className="h6 text-black fw-bold text-capitalize about-us-title">
                                     Contact Us
                                 </p>
                                 <div style={{ marginLeft: 10 }} className='d-flex mt-3 '>
-                                    <HiMail color='#fff' size={26} />
-                                    <p style={{ color: '#fff', marginLeft: 10 }} className='fs-7'>Darshannetworks1212@gmail.com </p>
+                                    <HiMail color='#000' size={26} />
+                                    <p style={{ color: '#000', marginLeft: 10 }} className='fs-7'>Darshannetworks1212@gmail.com </p>
                                 </div>
                                 <div style={{ marginLeft: 10 }} className='d-flex mt-3 '>
-                                    <IoCall color='#fff' size={26} />
-                                    <p style={{ color: '#fff', marginLeft: 10 }} className='fs-7'>+6011 2797 5729</p>
+                                    <IoCall color='#000' size={26} />
+                                    <p style={{ color: '#000', marginLeft: 10 }} className='fs-7'>+6011 2797 5729</p>
                                 </div>
                                 <div style={{ marginLeft: 10 }} className='d-flex mt-3 '>
-                                    <FaAddressBook color='#fff' size={26} />
-                                    <p style={{ color: '#fff', marginLeft: 10 }} className='fs-7'>20-08, Jalan Pauh Jaya, Bukit Mertajam 13700, Penang Malaysia </p>
+                                    <FaAddressBook color='#000' size={26} />
+                                    <p style={{ color: '#000', marginLeft: 10 }} className='fs-7'>20-08, Jalan Pauh Jaya, Bukit Mertajam 13700, Penang Malaysia </p>
                                 </div>
                                 {/* Contact Form */}
                                 {/* <div className="form-container">

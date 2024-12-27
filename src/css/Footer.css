@@ -1,11 +1,11 @@
 
 .footer_container {
-    background-color: #001124;
+    background-color: black;
     padding-top: 40px;
 }
 
 .footer-upper {
-    background-color: rgb(1,17,38);
+    /* background-color: rgb(1,17,38); */
     padding: 40px 0;
 }
 
@@ -19,17 +19,17 @@
 
 .about-us-title {
     font-size: 18px;
-    color: #fff;
+    color: black;
 }
 
 .about-us-description {
     font-size: 16px;
-    color: #ddd;
+    color: black;
 }
 
 .who-we-are p {
     font-size: 1rem;
-    color: #b0b0b0;
+    color: black;
 }
 
 .footer-form {
@@ -39,7 +39,7 @@
     width: 100%;
     max-width: 400px;
     min-width: 600px; 
-    background-color: #fff;
+    background-color: black;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
@@ -47,17 +47,17 @@
 
 .footer-form label {
     font-size: 14px;
-    color: #333;
+    color: black;
 }
 
 .footer-input,
 .footer-textarea {
     font-size: 15px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
     outline: none;
-    color: #333;
+    color: black;
 }
 
 .footer-input {
@@ -74,7 +74,7 @@
 .footer-submit-button {
     padding: 12px 25px;
     background-color: rgb(8, 8, 63);
-    color: #fff;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -88,7 +88,7 @@
 
 .footer-link {
     text-decoration: none;
-    color: #fff;
+    color: black;
     margin: 0 10px;
 }
 
@@ -119,7 +119,7 @@
 }
 
 .footer_container .social_icons .social-icon {
-    color: white !important; 
+    color: black !important; 
     font-size: 1.5rem; 
     /* margin: 0 10px; */
 }
@@ -137,7 +137,7 @@
 }
 
 .social_icons .social-icon {
-    color: white !important;
+    color: black !important;
     font-size: 2rem;     
     transition: color 0.3s ease; 
 }

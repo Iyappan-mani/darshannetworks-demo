@@ -26,7 +26,7 @@ const App = () => {
     <div className="app-container">
       <Header scrollToFooter={scrollToFooter} scrollToClients={scrollToClients} />
       <div className="scrollable-container">
-        <div className="section">
+         <div className="section">
           <FirstContainer />
         </div>
         <div className="section">
@@ -36,7 +36,7 @@ const App = () => {
           <ProjectsList />
         </div>
 
-        <div style={{ marginTop: '50em' }}></div>
+        {/* <div style={{ marginTop: '50em' }}></div> */}
         <div ref={footerRef}>
           <Footer />
         </div>
