@@ -75,3 +75,13 @@
 
     margin-bottom: 50px;
 }
+
+.imageBox{
+    height: 80%;
+    width: 100%;
+}
+
+.bigImage{
+    height: 100%;
+    width: 100%;
+}

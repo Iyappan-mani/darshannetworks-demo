@@ -68,7 +68,7 @@ const ProjectsList = () => {
                 <div style={{ paddingLeft: 30, paddingRight: 30, }} className='imageContainer justify-content-around mt-5 pb-5'>
                     {
                         listOfImage?.map((item, index) => (
-                            <img width="300" height="450" src={item.image} />
+                            <img width="300" height="450" style={{marginTop:10}} src={item.image} />
 
                         ))
                     }
@@ -84,36 +84,49 @@ const ProjectsList = () => {
                 <div style={{ paddingLeft: 30, paddingRight: 30, }} className='imageContainer justify-content-evenly mt-5 pb-5'>
                     {
                         BrandOfImage?.map((item, index) => (
-                            <img width="180" height="70" src={item.image} class="attachment-full size-full wp-image-79" />
+                            <img width="180" height="70" src={item.image} style={{marginTop:30}} class="attachment-full size-full wp-image-79" />
 
                         ))
                     }
                 </div>
-                <div style={{ paddingLeft: 30, paddingRight: 30, }} className='imageContainer justify-content-evenly mt-5 pb-5'>
+                <div style={{ paddingLeft: 30, paddingRight: 30, }} className='imageContainer justify-content-evenly mt-lg-3 pb-5'>
                     {
                         BrandOfImage2?.map((item, index) => (
-                            <img width="180" height="70" src={item.image} class="attachment-full size-full wp-image-79" />
+                            <img width="180" height="70" src={item.image} style={{marginTop:30}} class="attachment-full size-full wp-image-79" />
 
                         ))
                     }
                 </div>
             </div>
 
-            <div className='ProductListContainer1 pb-5'>
+            <div className='ProductListContainer1 pe-3 pe-lg-4 ps-lg-4 ps-3 pb-5'>
                 <p style={{ textAlign: 'center', color: '#463B29', paddingTop: 30 }}>Review</p>
                 <h1 className='dealingText' style={{marginBottom:50, textAlign: 'center', fontWeight: 'bold', color: '#463B29' }}>Word from wise</h1>
                 <Swiper
                     modules={[Autoplay]}
                     loop
-                    slidesPerView={3}
+                    // slidesPerView={3}
+                    spaceBetween={20}
                     autoplay={{
                         delay: 2000, // Delay in milliseconds
                         disableOnInteraction: false, // Autoplay won't stop after user interaction
                     }}
-                    pagination={{ clickable: true }} // Enables pagination dots
+                    pagination={{ clickable: true }}
+                    
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1, // Mobile view
+                        },
+                        768: {
+                            slidesPerView: 2, // Tablet view
+                        },
+                        1024: {
+                            slidesPerView: 3, // Desktop view
+                        },
+                    }}
                 >
-                    <SwiperSlide>
-                        <div className='slideContainer'>
+                    <SwiperSlide style={{}}>
+                        <div className='slideContainer w-100'>
                             <div className='titleNameround'>
                             <FaQuoteRight color='#ffff'/>
                             </div>

@@ -14,8 +14,7 @@
 }
 
 .ProductListContainer1 {
-    padding-left: 80px;
-    padding-right: 80px;
+   
     margin-top: 20px;
     width: 100%;
     background-color: #F7C59C;
@@ -25,7 +24,7 @@
     overflow: hidden;
     position: relative;
     height: 300px;
-    width: 25vw;
+ 
     background-color: aliceblue;
     border-radius: 20px;
     align-items: center;

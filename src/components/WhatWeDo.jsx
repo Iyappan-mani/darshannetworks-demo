@@ -34,19 +34,19 @@ const WhatWeDo = () => {
                 <p style={{ textAlign: 'center', }}>How we complete you project?</p>
                 <h1 className='dealingText' style={{ textAlign: 'center', fontWeight: 'bold', }}>We do all this for you.</h1>
 
-                <div className='d-lg-flex d-sm-block justify-content-around '>
+                <div className='d-lg-flex d-sm-block justify-content-around p-4'>
                     <div className='box1 mt-5'>
-                        <img src="https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/img-2.png" class="attachment-full size-full" alt="">
+                        <img src="https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/img-2.png" class="imageBox" alt="">
                         </img>
                         <h5 class="mt-4">Creative Design</h5>
                     </div>
                     <div className='box1 mt-5'>
-                        <img src="https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/img-3.png" class="attachment-full size-full" alt="">
+                        <img src="https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/img-3.png" class="imageBox" alt="">
                         </img>
                         <h5 class="mt-4">Development</h5>
                     </div>
                     <div className='box1 mt-5'>
-                        <img src="https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/img-4.png" class="attachment-full size-full" alt="">
+                        <img src="https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/img-4.png" class="imageBox" alt="">
                         </img>
                         <h5 class="mt-4">Complete the project</h5>
                     </div>
@@ -63,7 +63,7 @@ const WhatWeDo = () => {
                     </Button>
                 </div>
                 <div>
-                    <img src="https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/img-5.png" class="attachment-full size-full" alt="">
+                    <img src="https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/img-5.png" class="bigImage" alt="">
                     </img>
                 </div>
             </div>
