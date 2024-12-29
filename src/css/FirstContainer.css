@@ -1,10 +1,11 @@
 .conatiner {
-    width: 84%;
+    height: 80vh;
+    width: 90%;
     display: block;
     padding-left: 30px;
     align-content: end;
     justify-content: end;
-    height: 40vw;
+
     align-self: center;
     justify-self: center;
     margin-top: 20px;
@@ -20,6 +21,21 @@
     /* Add subtle shadow */
 }
 
+
+@media (max-width: 768px) {
+   .conatiner{
+    height: 40vh;
+    width: 90%;
+   }
+}
+
+
+@media (max-width: 600px) {
+    .conatiner{
+        height: 40vh;
+        width: 90%;
+       }
+}
 .headerText{
     font-size: 2.5vw;
 }
