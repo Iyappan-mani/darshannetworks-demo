@@ -1,11 +1,10 @@
 .conatiner {
     height: 80vh;
-    width: 90%;
+    width: 80%;
     display: block;
     padding-left: 30px;
     align-content: end;
     justify-content: end;
-
     align-self: center;
     justify-self: center;
     margin-top: 20px;

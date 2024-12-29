@@ -14,7 +14,7 @@ const Header = ({
 }) => {
 
   return (
-    <Navbar expand="lg" className="bg-white font-weight-bold navbar-custom sticky-top pe-lg-5 ps-lg-5" style={{paddingTop:'10px',paddingBottom:'10px' , }}>
+    <Navbar expand="lg" className="overallConatiner bg-white font-weight-bold navbar-custom sticky-top" style={{paddingTop:'10px',paddingBottom:'10px' , }}>
       <Container fluid>
         <Navbar.Brand href="#" className="d-flex align-items-center">
           <img src={require('../Image/logo.png')} alt="Brand Logo" width="45px" height="auto" />

@@ -13,20 +13,20 @@ const WhatWeDo = () => {
                 <div className='box1'>
                     <img width="116" height="99" src="https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/icon-1.png" class="attachment-full size-full wp-image-81" alt="">
                     </img>
-                    <h3 class="elementor-image-box-title">Creative design</h3>
-                    <p class="elementor-image-box-description">We craft concepts, interiors, branding, and everything to realize your vision.</p>
+                    <h5 class="elementor-image-box-title">CREATIVE DESIGN</h5>
+                    <p class="elementor-image-box-description mt-4">We craft concepts, interiors, branding, and everything to realize your vision.</p>
                 </div>
                 <div className='box1'>
                     <img width="116" height="99" src="https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/icon-2.png" class="attachment-full size-full wp-image-80" alt="">
                     </img>
-                    <h3 class="elementor-image-box-title">Creative design</h3>
-                    <p class="elementor-image-box-description">We bring designs to life with in-house fabrication and precision.</p>
+                    <h5 class="elementor-image-box-title">FABRICATION</h5>
+                    <p class="elementor-image-box-description mt-4">We bring designs to life with in-house fabrication and precision.</p>
                 </div>
                 <div className='box1'>
                     <img width="116" height="99" src="https://ez-interories-architecture.eoxysthemes.com/wp-content/uploads/2024/12/icon-3.png" class="attachment-full size-full wp-image-79" alt="">
                     </img>
-                    <h3 class="elementor-image-box-title">Creative design</h3>
-                    <p class="elementor-image-box-description">We’re licensed GCs with expert PMs ensuring seamless design execution.</p>
+                    <h5 class="elementor-image-box-title">BUILD</h5>
+                    <p class="elementor-image-box-description mt-4">We’re licensed GCs with expert PMs ensuring seamless design execution.</p>
                 </div>
             </div>
 
